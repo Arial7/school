@@ -9,11 +9,10 @@ pensize(5)
 
 right(45)                  
 
-seite = 100
+seite = numinput();
 change = -75
 
-pencolor("red")
-fillcolor("cyan")
+color("red", "cyan")
 begin_fill()
 forward(seite)
 left(90)
@@ -28,8 +27,7 @@ end_fill()
 right(60)
 seite = seite + change
 
-pencolor("green")
-fillcolor("magenta")
+color("green", "magenta")
 begin_fill()
 forward(seite)
 left(90)
@@ -44,8 +42,7 @@ end_fill()
 right(60)
 seite = seite + change
 
-pencolor("blue")
-fillcolor("yellow")
+color("blue", "yellow")
 begin_fill()
 forward(seite)
 left(90)
@@ -60,8 +57,7 @@ end_fill()
 right(60)
 
 seite = seite + change
-pencolor("cyan")
-fillcolor("red")
+color("cyan", "red")
 begin_fill()
 forward(seite)
 left(90)
@@ -76,8 +72,7 @@ end_fill()
 right(60)
 
 seite = seite + change
-pencolor("green")
-fillcolor("cyan")
+color("green", "cyan")
 begin_fill()
 forward(seite)
 left(90)
@@ -92,8 +87,7 @@ end_fill()
 right(60)
 
 seite = seite + change
-pencolor("yellow")
-fillcolor("blue")
+color("yellow", "blue")
 begin_fill()
 forward(seite)
 left(90)
