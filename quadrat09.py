@@ -1,6 +1,6 @@
-﻿
-# quadrat07.py: 6 verschieden grosse Quadrate 
-# neu: seite = seite - 10
+﻿# quadrat09.py: 6 verschieden grosse Quadrate 
+# neu: funktionen
+
 from tkinter import *
 from turtle import *
 from math import *
