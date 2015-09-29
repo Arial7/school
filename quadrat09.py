@@ -1,18 +1,20 @@
-﻿
-# quadrat07.py: 6 verschieden grosse Quadrate 
+﻿# quadrat07.py: 6 verschieden grosse Quadrate 
 # neu: seite = seite - 10
-from tkinter import *
 from turtle import *
 from math import *
 
 reset()
 pensize(5)
+speed(0)
 
 right(45)                  
 
-seite = 100
-aenderung = -10
-
+startseite = numinput("Seitenlänge", "Wie lange soll die erste Seite sein?")
+seite = startseite
+aenderung = numinput("Änderung", "Wie groß soll die Änderung sein?")
+quadratAnzahl = numinput("Anzahl der Quadrate", "Wie viele Quadrate sollen gezeichnet werden?", 4, 2, 360)
+winkel = 360 / quadratAnzahl
+colors = ["red","green","blue","yellow","brown", "pink"]
 
 def quadrat():
 	global seite
@@ -24,7 +26,8 @@ def quadrat():
 	forward(seite)
 	left(90)
 	forward(seite)
-	left(30)
+	left(90)
+	left(winkel)
 
 	seite = seite + aenderung
 
@@ -32,38 +35,26 @@ def quadrat_fill():
 	begin_fill()
 	quadrat()
 	end_fill()
+	
+i = 0 
+while(i < quadratAnzahl):
+	fillcolor(colors[i % 6])
+	quadrat_fill()
+	i += 1
 
-pencolor("red")
-fillcolor("cyan")
-quadrat_fill()
+if quadratAnzahl > 4:
+	seite = startseite
+	fillcolor(colors[0])
+	begin_fill()
+	forward(seite)
+	left(90)
+	forward(seite)
+	end_fill()
 
-pencolor("green")
-fillcolor("magenta")
-quadrat_fill()
-
-pencolor("blue")
-fillcolor("yellow")
-quadrat_fill()
-
-pencolor("cyan")
-fillcolor("red")
-quadrat_fill()
-
-
-pencolor("green")
-fillcolor("cyan")
-quadrat_fill()
-pencolor("yellow")
-fillcolor("blue")
-quadrat_fill()
-pencolor("red")
-fillcolor("cyan")
-quadrat_fill()
-
-
+hideturtle()
+	
 try:
 	while True:
 		a = 0
 except KeyboardInterrupt:
 	exit()
-
