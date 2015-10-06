@@ -11,22 +11,23 @@ def dreieck(length):
     lt(120)
 
     
-def fuelle_dreieck(length, color):
-    fillcolor(color)
+def fuelle_dreieck(length, penColor, fillColor):
+    pencolor(penColor)
+    fillcolor(fillColor)
     begin_fill()
     dreieck(length)
     end_fill()
 
 
     
-fuelle_dreieck(110, "blue")
-fuelle_dreieck(80, "green")
-fuelle_dreieck(50, "red")   
+fuelle_dreieck(110, "brown" , "blue")
+fuelle_dreieck(80, "yellow" , "green")
+fuelle_dreieck(50, "lime" , "red")   
 
 ##INFITE LOOP
 try:
     while(1):
-        never_used_variable_name_that_is_super_awesome_and_never_used = 0
+        time.sleep(0.1)
 except KeyboardInterrupt:
     exit()
 
