@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+#zum Erlernen von Boolschen Variablen
+=======
+# Neues: if-Anweisungen
+>>>>>>> 9e9845367c22d2daa7aacf387efe5f6336c69bee
+
+frage = "Welche Programmiersprache lernst du gerade? "
+loesung = "python"
+
+antwort = input(frage)
+if antwort.lower() == loesung:
+<<<<<<< HEAD
+    print ("Richtig!")
+else:
+    print ("Falsch!")
+
+=======
+	print("Richtig!")
+	exit()
+else:
+	print("Leider falsch!")
+>>>>>>> 9e9845367c22d2daa7aacf387efe5f6336c69bee
