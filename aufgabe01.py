@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+
+#zeichnet 4 dreiecke unterschiedlicher größe
+
 from turtle import *
 
 pensize(4)
@@ -18,7 +22,7 @@ dreieck(100)
 dreieck(200)
 dreieck(100)
 
-#Infinite loop 
+#Infinite loop
 try:
 	while True:
 		a = 0

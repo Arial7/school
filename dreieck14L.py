@@ -1,34 +1,40 @@
+#!/usr/bin/python3
+
+#uses a for loop to draw some triangles
+
 from turtle import *
 from time import *
 
 pensize(2)
 speed(0.5)
-farbenpaare = (("red", "red"), ("green", "green"), ("blue", "blue"))
+colorPairs = (("red", "red"), ("green", "green"), ("blue", "blue"))
 
-def dreieck(length):
+def triangle(length):
     for i in range(3):
         fd(length)
         rt(120)
     rt(120)
 
-def multipack(length, farbenpaare):
-    count = len(farbenpaare)
-    for pen, fill in farbenpaare:
-        fuelle_dreieck(length, pen, fill)
+def multipack(length, colorPairs):
+    #draw as many triangles as there are color pairs
+    count = len(colorPairs)
+    #assign the variables
+    for pen, fill in colorPairs:
+        fill_triangle(length, pen, fill)
         rt(360 / count)
 
-def fuelle_dreieck(length, farbe1, farbe2):
-    pencolor(farbe1)
-    fillcolor(farbe2)
+def fill_triangle(length, penColor, fillColor):
+    pencolor(penColor)
+    fillcolor(fillColor)
     begin_fill()
-    dreieck(length)
+    triangle(length)
     end_fill()
 
 
-def dreierpack(length, change, farbenpaare):
-
-    for farbe1, farbe2 in farbenPaare:
-        fuelle_dreieck(length, farbe1, farbe2)
+def dreierpack(length, change, colorPairs):
+    #assign vars
+    for pen, fill in colorPairs:
+        fill_triangle(length, pen, fill)
 
 def jump(dist, angle):
     pu()
@@ -39,12 +45,6 @@ def jump(dist, angle):
 
 angle = 10
 while 1:
-    multipack(150, farbenpaare)
+    multipack(150, colorPairs)
     jump(50, angle)
     angle += 50
-
-##INFITE LOOP
-try:
-    sleep(4294967296)
-except KeyboardInterrupt:
-    exit()

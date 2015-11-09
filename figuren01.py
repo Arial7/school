@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from turtle import *
 from time import *
 
@@ -27,7 +29,7 @@ def square(length, penColor, fillColor):
     rt(90)
     fd(length)
     rt(90)
-    end_fill()    
+    end_fill()
 
 def figure(name, length):
     if name == "square":
@@ -46,4 +48,3 @@ try:
     sleep(4294967296)
 except KeyboardInterrupt:
     exit()
-

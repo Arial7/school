@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from turtle import *
 
 pensize(2)
@@ -10,7 +12,7 @@ def dreieck(length):
     fd(length)
     lt(120)
 
-    
+
 def fuelle_dreieck(length, penColor, fillColor):
     pencolor(penColor)
     fillcolor(fillColor)
@@ -19,16 +21,13 @@ def fuelle_dreieck(length, penColor, fillColor):
     end_fill()
 
 
-    
+
 fuelle_dreieck(110, "brown" , "blue")
 fuelle_dreieck(80, "yellow" , "green")
-fuelle_dreieck(50, "lime" , "red")   
+fuelle_dreieck(50, "lime" , "red")
 
 ##INFITE LOOP
 try:
-    while(1):
-        time.sleep(0.1)
+    time.sleep(999999999)
 except KeyboardInterrupt:
     exit()
-
-

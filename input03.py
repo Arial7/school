@@ -1,6 +1,7 @@
+#!/usr/bin/python3
+
 name = input("Dein name: ")
 fach = input("Welches Fach? ")
-
 
 
 grade1 = float(input("Note " + str(1) + ":"))

@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 frage = "Welche Programmiersprache lernst du gerade? "
 loesung = "python"
 
@@ -7,5 +9,3 @@ if antwort.lower() == loesung:
     print ("Richtig!")
 else:
     print ("Falsch!")
-
-

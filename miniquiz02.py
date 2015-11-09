@@ -1,8 +1,11 @@
+#!/usr/bin/python3
+
 # Neues: if-Anweisungen
 punkte = 0
 
 name = input("Sag mir deinen Name bitte: ")
 
+#Dictionary -> not learned yet
 frageAntwort = {
 	"Welche Programmiersprache lernst du gerade? " : "python",
 	"Mit welchem reservierten Wort beginnt eine Funktionsdefinition? " : "def",
@@ -14,7 +17,7 @@ for frage in frageAntwort:
 	antwort = input(frage)
 	if antwort.lower() == frageAntwort[frage]:
 		print("Richtig!")
-		punkte += 1	
+		punkte += 1
 	else:
 		print("Falsch!")
 if punkte == 0:

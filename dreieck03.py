@@ -1,66 +1,60 @@
+#!/usr/bin/python3
+
 from turtle import *
 from time import *
 
 speed(0)
-
-def triangle(lenght):
-    fd(lenght)
+#draws one triangle
+def triangle(length):
+    fd(length)
     rt(120)
-    fd(lenght)
+    fd(length)
     rt(120)
-    fd(lenght)
+    fd(length)
     rt(240)
-
-def square(lenght):
-    fd(lenght)
+#draws one square
+def square(length):
+    fd(length)
     rt(90)
-    fd(lenght)
+    fd(length)
     rt(90)
-    fd(lenght)
+    fd(length)
     rt(90)
-    fd(lenght)
+    fd(length)
     rt(90)
-
-def fill_Triangle(lenght, fillColor, penColor):
+#fills one triangle
+def fill_Triangle(length, fillColor, penColor):
     pencolor(penColor)
     fillcolor(fillColor)
     begin_fill()
-    triangle(lenght)
+    triangle(length)
     end_fill()
-
-def fill_Square(lenght, fillColor, penColor):
+#fills one square
+def fill_Square(length, fillColor, penColor):
     pencolor(penColor)
     fillcolor(fillColor)
     begin_fill()
-    square(lenght)
+    square(length)
     end_fill()
-
-def drawThreeTriangles(lenght, change):
-    fill_Triangle(lenght, "green", "blue")
-    lenght += change
-    fill_Triangle(lenght, "magenta", "green")
-    lenght += change
-    fill_Triangle(lenght, "blue", "magenta")
-
-def draw(form, lenght):
+#draws tree triangles with the given change
+def drawThreeTriangles(length, change):
+    fill_Triangle(length, "green", "blue")
+    length += change
+    fill_Triangle(length, "magenta", "green")
+    length += change
+    fill_Triangle(length, "blue", "magenta")
+#decide whether to draw a square or triangle
+def draw(form, length):
     if form == "Square":
-        fill_Square(lenght, "green", "blue")
+        fill_Square(length, "green", "blue")
     else:
-        fill_Triangle(lenght, "green", "blue")
-
-#def jump(distance, angle):
-#    pu()
-#    rt(angle)
-#    fd(distance)
-#    lt(angle)
-#    pd()
-#    drawThreeTriangles(100, 0)
+        fill_Triangle(length, "green", "blue")
 
 getForm = input("Welche Form möchtest du zeichnen?")
-getLenght = numinput("Input","Welche Seitenlänge soll die Form haben?")
-draw(getForm,getLenght)
+getlength = numinput("Input","Welche Seitenlänge soll die Form haben?")
+draw(getForm,getlength)
 
 try:
     sleep(999999)
-except Keyboardinterupt:
+except KeyboardInterrupt:
     exit()
