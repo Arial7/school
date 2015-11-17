@@ -6,14 +6,14 @@ from turtle import *
 from time import *
 
 pensize(2)
-speed(0.5)
-colorPairs = (("red", "red"), ("green", "green"), ("blue", "blue"))
+speed(6)
+colorPairs = (("red", "red"), ("green", "green"), ("blue", "blue"), ("yellow", "yellow"), ("brown", "brown"))
 
 def triangle(length):
     for i in range(3):
         fd(length)
         rt(120)
-    rt(120)
+    #rt(120)
 
 def multipack(length, colorPairs):
     #draw as many triangles as there are color pairs
@@ -21,7 +21,7 @@ def multipack(length, colorPairs):
     #assign the variables
     for pen, fill in colorPairs:
         fill_triangle(length, pen, fill)
-        rt(360 / count)
+        lt(360 / count)
 
 def fill_triangle(length, penColor, fillColor):
     pencolor(penColor)
@@ -36,15 +36,4 @@ def dreierpack(length, change, colorPairs):
     for pen, fill in colorPairs:
         fill_triangle(length, pen, fill)
 
-def jump(dist, angle):
-    pu()
-    rt(angle)
-    fd(dist)
-    lt(angle)
-    pd()
-
-angle = 10
-while 1:
-    multipack(150, colorPairs)
-    jump(50, angle)
-    angle += 50
+multipack(150, colorPairs)
