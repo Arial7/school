@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 #Flips a string and returns it
 def flip(string):
     newString = ''
