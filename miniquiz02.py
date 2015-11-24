@@ -13,6 +13,7 @@ frageAntwort = {
 	"Welcher Wochentag ist heute? " : "dienstag"
 }
 
+
 for frage in frageAntwort:
 	antwort = input(frage)
 	if antwort.lower() == frageAntwort[frage]:
@@ -27,4 +28,4 @@ elif punkte > 0 and punkte < len(frageAntwort):
 else:
     print("Alle Antorten richtig!!!")
 
-print("Tschüss, ", name)
+print("Tschüss,", name)

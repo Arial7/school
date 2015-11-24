@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from turtle import *
 from time import *
 
