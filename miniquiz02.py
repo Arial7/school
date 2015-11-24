@@ -22,7 +22,7 @@ for frage in frageAntwort:
 		print("Falsch!")
 if punkte == 0:
     print("Du bist dumm!")
-elif punkte > 0 && punkte < len(frageAntwort):
+elif punkte > 0 and punkte < len(frageAntwort):
 	print("Wow, bist du toll!!! ", punkte, " Punkte!!!")
 else:
     print("Alle Antorten richtig!!!")
