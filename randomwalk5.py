@@ -18,8 +18,17 @@ durchschnitt = 0
 anzahl = 0
 
 def zufallsschritt(wink, laen):
+    if distance(start) > 225:
+        pencolor("green")
+    elif distance(start) > 175:
+        pencolor("yellow")
+    elif distance(start) > 75:
+        pencolor("red")
+    else:
+        pencolor("blue")
     rt(randint(winkel * -1, winkel))
     fd(randint(1, laenge))
+    
 def zufallsweg(wink, laen):
     global schritte
     global durchschnitt
@@ -37,7 +46,9 @@ for i in range(200):
     global anzahl
     zufallsweg(winkel, laenge)
     anzahl += 1
+    pu()
     home()
+    pd()
 
 print("Durchschnitt", (durchschnitt / anzahl))
 

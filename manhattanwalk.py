@@ -3,10 +3,6 @@
 from turtle import *
 from random import *
 
-winkel = numinput(0, 10, 40)
-laenge = numinput(1, 3, 15)
-
-
 speed(9)
 
 setup(800, 800)
@@ -17,14 +13,15 @@ schritte = 0
 durchschnitt = 0
 anzahl = 0
 
-def zufallsschritt(wink, laen):
-    rt(randint(winkel * -1, winkel))
-    fd(randint(1, laenge))
-def zufallsweg(wink, laen):
+def zufallsschritt():
+    rt(randint(1,4) * 90)
+    fd(10)
+    
+def zufallsweg():
     global schritte
     global durchschnitt
     while distance(start) < 350:
-        zufallsschritt(wink, laen)
+        zufallsschritt()
         schritte += 1
     stamp()
     print("Schritte", schritte)
@@ -33,11 +30,13 @@ def zufallsweg(wink, laen):
 
 tracer(False)
 
-for i in range(200):
+for i in range(10):
     global anzahl
-    zufallsweg(winkel, laenge)
+    zufallsweg()
     anzahl += 1
+    pu()
     home()
+    pd()
 
 print("Durchschnitt", (durchschnitt / anzahl))
 
