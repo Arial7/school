@@ -17,6 +17,8 @@ schritte = 0
 durchschnitt = 0
 anzahl = 0
 
+shape("turtle")
+
 def zufallsschritt(wink, laen):
     if distance(start) > 225:
         pencolor("green")
