@@ -58,14 +58,36 @@ redFill.setpos(-260, 280)
 redFill.onclick(fillRed)
 redFill.color("black", "red")
 
+helperStampID = 0
+
+helper = Turtle()
+helper.shape("square")
+helper.shapesize(20, 20, 3)
+helper.pu()
+helper.setpos(0,0)
+helper.color("cyan", "red")
+helper.hideturtle()
+
 def togglefill(x, y):
     if pen.filling(): 
         pen.end_fill()
     else: 
         pen.begin_fill()
 
+def show_help():
+    helperStampID = helper.stamp()
+    helper.write("HILFE, ich bin zu dumm, dieses Programm zu benutzen!!!", False, "center")
+    helper.showturtle()
+
+def hide_help():
+    helper.clearstamp(helperStampID)
+    helper.hideturtle()
+
 screen.onkeypress(pen.undo, "BackSpace")
 screen.onkeypress(pen.clear, "x")
+screen.onkeypress(show_help, "F1")
+screen.onkeypress(hide_help, "Escape")
+
 
 for c in "123456789":
     def setpensize(ps=int(c)):
