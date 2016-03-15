@@ -76,7 +76,7 @@ def togglefill(x, y):
 
 def show_help():
     helperStampID = helper.stamp()
-    helper.write("HILFE, ich bin zu dumm, dieses Programm zu benutzen!!!", False, "center")
+    helper.write("HILFE, ich bin zu dumm, dieses Programm zu benutzen!!!", True, "center")
     helper.showturtle()
 
 def hide_help():
