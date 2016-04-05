@@ -7,7 +7,7 @@ import sys
 sys.setrecursionlimit(20000)
 
 screen = Screen()
-screen.setup(800, 800)
+screen.setup(800, 600)
 screen.clear()
 pen = Turtle()
 pen.speed(0)
