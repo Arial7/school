@@ -44,7 +44,7 @@ def zufallsweg(wink, laen):
 
 tracer(False)
 
-for i in range(200):
+for i in range(50):
     global anzahl
     zufallsweg(winkel, laenge)
     anzahl += 1

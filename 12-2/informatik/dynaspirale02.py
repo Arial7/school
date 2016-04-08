@@ -3,19 +3,30 @@
 from turtle import Screen, Turtle
 import sys
 
+# Subklasse von Turtle welche einige Helfermethoden definiert
 class CTurtle(Turtle):
+    # Der Konstruktor
+    # @param self {CTurtle} - Das erstellte Objekt, wird automatisch 
+    # generiert und muss nicht übergeben werden.
     def __init__(self):
+        # Ruft den Konstruktor der Superklasse auf, dabei wird das
+        # erstellt Objekt übergeben.
         Turtle.__init__(self)
 
+    # Springt zu einer angegebenen x und y Koordinate
+    # @param self {CTurtle} - Das Objekt, auf der die Funktion ausgeführt
+    # wird. Wird automatisch übergeben.
+    # @param x {Integer} - Die x-Koordinate von der Mitte des Fensters
+    # @param y {Integer} - Die y-Koordinate von der Mitte des Fensters
     def jump(self, x, y):
         self.pu()
         self.setpos(x, y)
         self.pd()
-    
-    def polystep(self, fwd, ang):
-        self.fd(fwd)
-        self.lt(ang)
-
+   
+    # Zeichnet eine dreieckige "Spirale"
+    # @param self {CTurtle} - Das Objekt, auf der die Funktion ausgeführt
+    # wird. Wird automatisch übergeben.
+    # @param size {Integer} - Die erste Kantenlänge.
     def drawSpiral(self, size):
         self.rt(30)
         for length in range(size, 0, -5):
@@ -25,7 +36,9 @@ class CTurtle(Turtle):
 screen = Screen()
 screen.clear()
 
+# Erstellt ein neues Objekt vom Typ CTurtle.
 blue = CTurtle()
+# Springt 100px nach oben
 blue.jump(0, 100)
 blue.color("blue", "blue")
 blue.lt(90)
@@ -49,7 +62,7 @@ black.color("black", "black")
 black.drawSpiral(150)
 
 
-
+# Wird für dieses Programm wahrscheinlich nicht benötigt.
 blue.getscreen()._root.mainloop()
 
 
