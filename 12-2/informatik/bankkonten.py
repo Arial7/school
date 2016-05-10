@@ -61,7 +61,7 @@ def transaktion(benutzer):
             break
         elif wahl is "1":
             if benutzer.konto.stand < 0:
-                Bildschirm("Transaktion", 
+                Bildschirm("Transaktion",
                 """
                 Sie haben kein Geld... Sie können sich nichts auszahlen lassen
                 """).zeigen()
@@ -79,9 +79,6 @@ def transaktion(benutzer):
             benutzer.konto.buchen(int(summenBildschirm.zeigen()))
 
 
-                
-
-     
 def login():
     global benutzer
     nameBildschirm = Bildschirm("Login",
@@ -112,7 +109,7 @@ def login():
 
 def neuerBenutzer():
     global benutzer
-    nameBildschirm = Bildschirm("Neuer Benutzer", 
+    nameBildschirm = Bildschirm("Neuer Benutzer",
         """
         Geben Sie Ihren Namen ein
         """)
@@ -122,7 +119,7 @@ def neuerBenutzer():
         Geben Sie ein Passwort ein
         """)
     passwort = passwortBildschirm.zeigen()
-    Bildschirm("Neuer Benutzer", 
+    Bildschirm("Neuer Benutzer",
         """
         Ein neues Konto wurde erstellt
         """).zeigen()
@@ -144,8 +141,5 @@ while True:
     elif wahl is "2":
         neuerBenutzer()
     elif wahl is "q":
-        print("\n\n\t\tUnd Tschuess!")
+        print("\n\n\tUnd Tschuess!")
         exit()
-        
-
-
