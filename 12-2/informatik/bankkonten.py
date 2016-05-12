@@ -49,6 +49,8 @@ def transaktion(benutzer):
     while True:
         kontoBildschirm = Bildschirm("Willkommen " + benutzer.name,
         """
+        Der aktuelle Kontostand beträgt: """ + benutzer.konto.stand +
+        """
         Was wollen Sie tun?
         1) Geld abheben
         2) Geld einzahlen
