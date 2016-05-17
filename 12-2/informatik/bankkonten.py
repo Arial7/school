@@ -7,7 +7,7 @@ import random
 import string
 import os
 
-benutzer = list()
+benutzers = list()
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -49,12 +49,13 @@ def transaktion(benutzer):
     while True:
         kontoBildschirm = Bildschirm("Willkommen " + benutzer.name,
         """
-        Der aktuelle Kontostand beträgt: """ + benutzer.konto.stand +
+        Der aktuelle Kontostand beträgt: """ + str(benutzer.konto.stand) +
         """
+
         Was wollen Sie tun?
         1) Geld abheben
         2) Geld einzahlen
-        3) Geld überweisen (Noch nicht verfügbar)
+        3) Geld überweisen
         4) Abmelden
         """)
 
@@ -79,10 +80,26 @@ def transaktion(benutzer):
             Wie viel möchten Sie einzahlen?
             """)
             benutzer.konto.buchen(int(summenBildschirm.zeigen()))
+        elif wahl is "3":
+            prompt = """
+            Wem möchten Sie Geld überweisen?
+            """
+            for i in range(len(benutzers)):
+                prompt += str(i + 1) + ") " + benutzers[i].name + "\n"
+
+            transaktionKontowahl = Bildschirm("Transaktion", prompt)
+            wahl = transaktionKontowahl.zeigen()
+            summenBildschirm = Bildschirm("Transaktion",
+            """
+            Wie viel möchten Sie überweisen?
+            """)
+            summe = summenBildschirm.zeigen()
+            benutzers[int(wahl) - 1].konto.buchen(int(summe))
+            benutzer.konto.buchen(int("-" + summe))
 
 
 def login():
-    global benutzer
+    global benutzers
     nameBildschirm = Bildschirm("Login",
         """
         Geben Sie Ihren Namen ein
@@ -94,7 +111,7 @@ def login():
         """)
     passwort = passwortBildschirm.zeigen()
     aktuellerBenutzer = None
-    for b in benutzer:
+    for b in benutzers:
         if (b.name == name) and (b.passwort == passwort):
             aktuellerBenutzer = b
             break
@@ -110,7 +127,7 @@ def login():
 
 
 def neuerBenutzer():
-    global benutzer
+    global benutzers
     nameBildschirm = Bildschirm("Neuer Benutzer",
         """
         Geben Sie Ihren Namen ein
@@ -126,7 +143,7 @@ def neuerBenutzer():
         Ein neues Konto wurde erstellt
         """).zeigen()
 
-    benutzer.append(Benutzer(name, passwort))
+    benutzers.append(Benutzer(name, passwort))
 
 while True:
     hauptmenu = Bildschirm("Willkommen bei der Heussbank",
