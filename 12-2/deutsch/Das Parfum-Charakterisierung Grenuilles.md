@@ -1,7 +1,8 @@
 # Charakterisierung Grenouilles
-> 05.04.16
-> Lehrer: Lutz
-> Block: Patrick Süskind - Das Parfum
+
+Datum      | Lehrer | Block
+-----------|--------|------
+05.04.2016 | Lutz   | Patrick Süskind - Das Parfum
 
 
 ## Eigenschaften

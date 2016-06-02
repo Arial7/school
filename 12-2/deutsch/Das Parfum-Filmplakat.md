@@ -1,7 +1,8 @@
 # Das Filmplakat
-> 13.05.16
-> Lehrer: Lutz
-> Block: Patrick Süskind - Das Parfum
+
+Datum      | Lehrer | Block
+-----------|--------|------
+13.05.2016 | Lutz   | Patrick Süskind - Das Parfum
 
 ## Spontane Eindrücke:
 - Rote Haare -> Blut

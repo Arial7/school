@@ -1,8 +1,8 @@
 # Grenouilles Selbstmordgedanken
-> 22.04.2016
-> Lehrer: Lutz
-> Block: Patrick Süskind - Das Parfum
 
+Datum      | Lehrer | Block
+-----------|--------|------
+22.04.2016 | Lutz   | Patrick Süskind - Das Parfum
 
 - Er stell fest, dass er das nicht wirklich ist
 - Er wollte das Resultat eigentlich nicht so haben

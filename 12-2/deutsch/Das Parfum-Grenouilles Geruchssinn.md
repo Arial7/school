@@ -1,7 +1,8 @@
 # Grenouilles Geruchssinn
-> 05.04.16
-> Lehrer: Lutz
-> Block: Patrick Süskind - Das Parfum
+
+Datum      | Lehrer | Block
+-----------|--------|------
+05.04.2016 | Lutz   | Patrick Süskind - Das Parfum
 
 Sein Wortschatz ist extrem klein und nur auf "begreifbare" Dinge begrenzt.
 ALlerdings differrenziert er zwischen vielen verschiedenen Gerüchen, welche

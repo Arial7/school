@@ -1,7 +1,8 @@
 # Grenouilles Entwicklung
-> 11.04.16
-> Lehrer: Lutz
-> Block: Patrick Süskind - Das Parfum
+
+Datum      | Lehrer | Block
+-----------|--------|------
+11.04.2016 | Lutz   | Patrick Süskind - Das Parfum
 
 ## Seite 176f.
 - Unmenschlich, sowohl äußerlich als auch innerlich

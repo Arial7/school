@@ -1,7 +1,9 @@
 # Was ist Romantik?
-> 31.05.16
-> Lehrer: Lutz
-> Block: Aus dem Leben eines Taugenichts
+
+Datum      | Lehrer | Block
+-----------|--------|------
+30.05.2016 | Lutz   | Aus dem Leben eines Taugenichts
+Datum      | Lehrer | Block
 
 - Epoche nach der Aufklärung
 - Das Gefühl wurde wieder als wichtigste Fähigkeit gesehen

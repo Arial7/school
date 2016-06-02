@@ -1,6 +1,10 @@
-# 10.03.2016
+# Kulturrelativismus Spaemanns
 
-Argumentationsschritte Spaemanns:
+Datum      | Lehrer | Block
+-----------|--------|------
+10.03.2016 | Münch  | Kulturrelativismus
+
+## Argumentationsschritte Spaemanns:
 
 - Oft wird es als Einwand gegen philosphische Ethik gesehen, dass jede Kultur ihre eigenen Normen und Werte hat
   - Wird von Kulturrelativisten behauptet

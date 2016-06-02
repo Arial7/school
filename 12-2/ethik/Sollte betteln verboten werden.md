@@ -1,7 +1,8 @@
 # Sollte Betteln verboten werden?
-> 19.05.2016i
-> Lehrer: Münch
-> Block: -
+
+Datum      | Lehrer | Block
+-----------|--------|------
+19.05.2016 | Münch  | -
 
 ## Pro
 - Der Staat kümmert sich um sie

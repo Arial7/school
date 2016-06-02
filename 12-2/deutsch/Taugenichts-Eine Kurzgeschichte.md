@@ -1,7 +1,8 @@
 # Aus dem Leben eines Taugenichts
-> 30.05.16
-> Lehrer: Lutz
-> Block: Aus dem Leben eines Taugenichts
+
+Datum      | Lehrer | Block
+-----------|--------|------
+30.05.2016 | Lutz   | Aus dem Leben eines Taugenichts
 
 ## Eine Kurzgeschichte
 

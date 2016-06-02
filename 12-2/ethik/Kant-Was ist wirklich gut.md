@@ -1,8 +1,8 @@
 # Was ist wirklich gut?
 
-> 07.04.2016
-> Lehrer: Münch
-> Block: Kant
+Datum      | Lehrer | Block
+-----------|--------|------
+07.04.2016 | Münch  | Kant
 
 ## Was empfinden wir als gut?
 - Nächstenliebe
