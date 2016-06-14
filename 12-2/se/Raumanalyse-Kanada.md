@@ -1,20 +1,18 @@
-# Raumanalyse Kanada 
-
 # Raumanalyse Kanada - Pascal Riesinger
 ## Inhaltsverzeichnis
-1. [Naturräumliche Ausstatung](#naturr%C3%A4umliche-ausstattung)
+1. [Naturräumliche Ausstatung](#naturräumliche-ausstattung)
     - [Lage](#lage)
     - [Relief](#relief)
     - [Klima](#klima)
-    - [Böden]
-    - Gewässer
-    - Rohstoffe
-    - Vegetation
-    - Naturgefahren
+    - [Böden](#böden)
+    - [Gewässer](#gewässer)
+    - [Rohstoffe](#rohstoffe)
+    - [Vegetation](#vegetation)
+    - [Naturgefahren](#naturgefahren)
 2. [Quellen](#quellen)
     - [Bilder](#bilder)
     - [Textquellen](#textquellen)
-    - Sonstige Quellen
+    - [Sonstige Quellen](#sonstige-quellen)
 
 ## Naturräumliche Ausstattung
 ### Lage
