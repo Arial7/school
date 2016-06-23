@@ -12,7 +12,7 @@ Datum      | Lehrer | Block
 - Wird immer menschlicher
 - Hat keine Emotionen
 - Sehr objektiv, kann sich nicht besonders gut einfühlen
-- Wünscht sich einen Menschenverstand 
+- Wünscht sich einen Menschenverstand
 - Weiß beim Tanzen nicht, wann er aufhören soll
 - Ist beim Tanzen nicht einfühlsam, kann nur reproduzieren
 - Hat gegen den Takt getanzt
