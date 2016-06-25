@@ -9,7 +9,9 @@
     - [Rohstoffe](#rohstoffe)
     - [Vegetation](#vegetation)
     - [Naturgefahren](#naturgefahren)
-2. [Quellen](#quellen)
+2. [Wirtschaft](#wirtschaft)
+3. [Politik](#politik)
+4. [Quellen](#quellen)
     - [Bilder](#bilder)
     - [Textquellen](#textquellen)
     - [Sonstige Quellen](#sonstige-quellen)
@@ -90,8 +92,13 @@ Wichtige Seehäfen binden sich entlang des Sankt-Lorenz-Stromes und in Vancouver
 ### Rohstoffe 
 Kanada ist ein relativ Rohstoffreiches Land. Vor allem sind die Forstwirtschaft
 und der Bergbau ausgeprägt. Somit ist das Land der größte Produzent von Zink,
-Uran, Schwefel und anderen 
-- Ölsand
+Uran, Schwefel und anderen Bodenschätzen. Durch die scheinbar unendliche
+Bewaldung spielt der Export von Holz, Papier und Zellstoff eine große Rolle für
+das Land.
+Kanada besitzt große Mengen von Erdöl und Erdgas, dabei ist ersteres vor allem
+in Ölsand eingelagert. Die Vorkommen befinden sich überwiegend in Alberta und
+sind so groß, dass Kanada Platz zwei nach Saudi-Arabien der weltweiten
+Ölvorkommen belegt.
 
 ### Vegetation 
 Kanada besteht zu großen Teilen aus von borealen Nadelwäldern bedeckter Tundra,
@@ -127,6 +134,32 @@ auf. In Kanada treten sie vorwiegend in südlichen Regionen auf, vor allem in
 Ontario und Saskatchewan. In diesen beiden Provinzen gibt es auch gehäuft
 Blitzeinschläge, weshalb sie auch die *Lightning Hot Spots* genannt werden.
 
+# Wirtschaft
+Mit einem Bruttoinlandsprodukt von 1,266 Billionen US-Dollar (Stand 2007) zählt
+Kanada zu den wohlhabendsten Ländern der Welt. Dabei bilden Dienstleistungen
+71,3% des BIP (Stand 2004), was zeigt, dass die Tertiärisierung in Kanada sehr
+weit voran
+geschritten ist. Mit einer Exportleistung von 456 Milliarden Kanadischer Dollar
+(2005) ist das Land eine knappe Exportnation (vgl. Importe: 404 Milliarden
+Kanadische Dollar). Dabei sind die Hauptabnehmer der kanadischen Exporte mit 70%
+die USA, gefolgt von Großbritannien mit 2,5% und Japan mit 2,3%. Bei den
+Importen tauschen Japan und Großbritannien den Platz, ansonsten bleiben diese
+drei Nationen die größten Handelspartner. 
+
+# Politik
+Kanada ist ein Land mit einer konstitutionellen Monarchie und einer
+parlamentarischen Demokratie. Der britische Monarch gilt als 
+Staatsoberhaupt. Er wird durch einen General-Gouverneur vertreten, welcher nach
+dem Vorschlag des kanadischen Premiers ernannt wird.
+Dennoch wirkt der Monarch nur räpresentativ, der eigentliche Gesetzgeber, das
+kanadische Parlament besteht aus dem General-Gouverneur, dem Oberhaus und dem
+Unterhaus. Es hat seinen Sitz in der Hauptstadt Ottawa. Die Parteilandschaft
+Kanadas ist ähnlich wie in den USA von zwei großen Parteien, der *Conservative
+Party of Canada* und der *Liberal Party of Canada*, bestimmt. Dennoch gibt
+es hier
+deutlich bessere Chancen, auch für kleinere Parteien, was die Vielfalt im
+Gegensatz zu den USA deutlich erhöht.
+
 ## Quellen 
 ### Bilder
 - Übersichtskarte Kanada:
@@ -157,6 +190,10 @@ Blitzeinschläge, weshalb sie auch die *Lightning Hot Spots* genannt werden.
 - Rohstoffe und Wirtschaft
     - http://www.diercke.de/content/nord-und-mittelamerika-landwirtschaft-978-3-14-100800-5-209-5-1?&stichwort=kanada (Stand: 21.06.16)
     - https://de.wikipedia.org/wiki/Wirtschaft_Kanadas#Rohstoffe (Stand 23.06.16)
+- Politik
+    - http://www.faszination-kanada.com/kanada-entdecken/kultur-geschichte/politik-in-kanada/
+      (Stand 23.06.16)
+
 ### Sonstige Quellen 
 - Diercke Weltatlas (Ausgabe 2015)
 
