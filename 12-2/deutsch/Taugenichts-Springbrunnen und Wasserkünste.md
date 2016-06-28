@@ -15,3 +15,7 @@ Seite | Tageszeit    | Gefühle / Situation
 80    | Nachts       | Nervös, hat Springbrunnen gefunden, Freude über Wasser
 83    | Nachts       | "Alle Lust und Freude in den Brunnen gefallen"
 105   | Nachts       | Hoffnungsvoll, glücklich, "[...] alles, alles gut"
+
+➔ Wasser als Heimatsgefühl (wegen der Mühle)
+➔ Reflektiert seine Stimmung (das Plätschern)
+
