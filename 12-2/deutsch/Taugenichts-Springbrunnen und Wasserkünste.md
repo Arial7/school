@@ -16,6 +16,6 @@ Seite | Tageszeit    | Gefühle / Situation
 83    | Nachts       | "Alle Lust und Freude in den Brunnen gefallen"
 105   | Nachts       | Hoffnungsvoll, glücklich, "[...] alles, alles gut"
 
-➔ Wasser als Heimatsgefühl (wegen der Mühle)
-➔ Reflektiert seine Stimmung (das Plätschern)
-
+➔ Wasser als Heimatsgefühl (wegen der Mühle) <br>
+➔ Reflektiert seine Stimmung (das Plätschern) <br>
+➔ Plätschern als Ruhepol
