@@ -20,6 +20,21 @@
 ### x-y-2
 
 Ausdruck ->
-Summand - Ziffer ->
-(Variable - Variable) - Ziffer
+Variable - Variable - Ziffer ->
 (x - y) - 2
+
+
+### x-(y-2)
+
+Ausdruck ->
+Variable - Summand ->
+x - (Variable - Ziffer) ->
+x - (y - 2)
+
+### (x+y)\*(x-y)
+
+Ausdruck ->
+Faktor ->
+Summand * Summand ->
+(Variable + Variable) \* (Variable - Variable) ->
+(x+y)\*(x-y)
