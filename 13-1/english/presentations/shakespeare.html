@@ -4,28 +4,31 @@
     <title>The Shakespearean Language</title>
     <meta charset="utf-8">
     <style>
+        @font-face {
+            font-family: "Actor";
+            src: url("assets/Actor-Regular.ttf");
+            font-weight: normal;
+        }
 
-      @import 'https://fonts.googleapis.com/css?family=Actor';
+        body {
+            font-family: 'Actor';
+            line-height: 1.7;
+        }
+        blockquote { margin: 1rem 0; font-style: italic }
+        p { margin: 0 }
+        ul { margin: 0 }
+        li { margin: 1rem 0 }
 
-      body {
+        h1, h2, h3 {
+          color: rgba(0, 0, 0, 0.7);
           font-family: 'Actor';
-          line-height: 1.7;
-      }
-      blockquote { margin: 1rem 0; font-style: italic }
-      p { margin: 0 }
-      ul { margin: 0 }
-      li { margin: 1rem 0 }
+          font-weight: bold;
+          text-transform: "uppercase";
+        }
 
-      h1, h2, h3 {
-        color: rgba(0, 0, 0, 0.7);
-        font-family: 'Actor';
-        font-weight: bold;
-        text-transform: "uppercase";
-      }
-
-      .red { color: red }
-      .blue { color: blue }
-      .green { border-bottom: 2px solid green }
+        .red { color: red }
+        .blue { color: blue }
+        .green { border-bottom: 2px solid green }
 
     </style>
   </head>
@@ -114,8 +117,14 @@ and setting thy knighthood aside, thou art a knave to call me so.
 
 > Hostess of the tavern (Henry IV)
 
+---
+
+# Influence on the English Language
+
+
+
     </textarea>
-    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    <script src="assets/remark.min.js">
     </script>
     <script>
       var slideshow = remark.create();
