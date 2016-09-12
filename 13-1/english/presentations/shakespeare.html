@@ -33,16 +33,65 @@
         .blue { color: blue }
         .green { border-bottom: 2px solid green }
 
+        .title-slide {
+            padding: 0;
+        }
+
+        .title-slide .wrapper {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: space-between;
+        }
+
+        .title-slide .wrapper .headers {
+            flex: 1 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 40%;
+            padding: 0 0 0 2rem;
+        }
+
+        .title-slide .wrapper h1 {
+            text-align: left;
+            border-left: 7px solid rgba(0, 0, 0, 0.2);
+            padding-left: 25px;
+        }
+
+        .title-slide .wrapper i {
+            display: inline-block;
+            margin-left: 25px;
+            font-size: 25px;
+        }
+
+
+
+        .title-slide .wrapper .image {
+            height: 100%;
+            flex: 1 0 auto;
+            max-width: 40%;
+            overflow: hidden;
+            background-image: url("assets/shakespeare2.jpg");
+            background-size: cover;
+        }
+
+
     </style>
   </head>
   <body>
     <textarea id="source">
 
-class: center, middle
-
-# The Shakespearean Language
-*The legacy of a poet*
-
+class: center, middle, title-slide
+<div class="wrapper">
+    <div class="headers">
+        <h1>The Shakespearean Language</h1>
+        <i>- The legacy of a poet</i>
+    </div>
+    <div class="image">
+    </div>
+</div>
 ---
 
 # Structure
@@ -124,6 +173,11 @@ and setting thy knighthood aside, thou art a knave to call me so.
 
 # Influence on the English Language
 
+- Reformed grammar
+- Used over 30.000 words
+- Introduced about 3.000 new words to English
+- Perfected the "Blank Verse"
+
 ---
 
 # Quiz
@@ -132,21 +186,31 @@ and setting thy knighthood aside, thou art a knave to call me so.
 
 --
 
+count: false
+
 - How big is the average vocabulary of today’s people?
 
 --
 
-- How big is Shakespeare’s vocabulary?
+count: false
+
+- How big was Shakespeare’s vocabulary?
 
 --
+
+count: false
 
 - How does Shakespeare link characters to words?
 
 --
 
+count: false
+
 - Why do writers use literary devices?
 
 --
+
+count: false
 
 - Name one famous phrase by Shakespeare!
 
