@@ -1,0 +1,21 @@
+body {
+    padding: 2rem;
+    font-family: sans-serif;
+
+}
+
+nav#TOC::before {
+    content: "Inhalt";
+    font-size: 3rem;
+    text-align: center;
+    display: block;
+}
+
+nav#TOC {
+    margin: 0 auto;
+    width: auto;
+}
+
+nav#TOC ul {
+    width: auto;
+}
