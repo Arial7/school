@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body {
     margin: 0 auto;
     min-width: 600px;
     width: 90%;
     max-width: 1200px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', 'Roboto', sans-serif;
     font-size: 1rem
 }
 
@@ -11,9 +14,16 @@ header {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-weight: 300;
 }
+
+h1 { font-size: 2.8rem; }
+h2 { font-size: 2.4rem; }
+h3 { font-size: 2.0rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.4rem; }
+h6 { font-size: 1.3rem; }
 
 .author {
     font-style: italic
@@ -28,7 +38,53 @@ h1, h2, h3 {
     clear: both
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.left-img img {
+    display: inline
+}
+
 figcaption {
     text-align: center;
     font-style: italic;
 }
+
+.math {
+    font-family: "Slabo 27px", serif;
+}
+
+.math.display {
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+
+table {
+    width: 100% !important;
+    border-collapse: collapse;
+}
+
+thead th {
+    border: 1px solid #ccc;
+    background-color: #cecece;
+    padding: 5px 0;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+tr.odd {
+    background-color: #eee;
+}
+tr.even {
+    background-color: #f7f7f7;
+}
+

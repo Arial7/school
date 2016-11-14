@@ -1,0 +1,192 @@
+---
+author: Pascal Riesinger
+css: './style.css'
+title: 'Chemie LK Ziegler - 13.1'
+---
+
+-   [Aminosäuren & Proteine](#aminosäuren-proteine)
+    -   [Struktur](#struktur)
+    -   [Zwitterionische Struktur](#zwitterionische-struktur)
+    -   [Der Isoelektrische Punkt](#der-isoelektrische-punkt)
+-   [Kunststoffe](#kunststoffe)
+-   [Farbstoffe](#farbstoffe)
+
+Aminosäuren & Proteine
+----------------------
+
+Aminosäuren sind die Bestandteile der Proteine. Sie sind für den
+menschlichen Körper extrem wichtig. Dabei gibt es 8 essentielle, d.h.
+vom Körper nicht produzierbare Aminosäuren.
+
+### Struktur
+
+Alle Aminosäuren habe eine Carboxylgruppe (COOH) und eine Aminogruppe
+(NH~2~), dabei ist die Aminogruppe immer an einem Kohlenstoffatom direkt
+am Kohlenstoffatom der Carboxylgruppe zu finden.
+<div class="left-img">
+
+![Glycin](assets/glycin.svg)
+
+</div>
+
+Das C-Atom, an welchem die Aminogruppe hängt, wird auch als
+ɑ-Kohlenstoffatom bezeichnet. In der Natur treten in größten Teilen
+L-ɑ-Aminosäuren auf, d.h. die Aminogruppe ist wie im Beispiel von Glycin
+(in der Fischer-Projektionsformel) nach links gedreht.
+
+<div class="clearfix">
+
+</div>
+
+### Zwitterionische Struktur
+
+Aminosäuren bilden ein Gitter ähnlich dem des Kochsalzes.
+
+<div class="left-img">
+
+![Gylcin als Zwitterion](assets/glycin_zwitterion.svg)
+
+</div>
+
+Da sie jedoch nicht als Ionen vorliegen, müssen sich die Ladungen im
+Molekül verschieben und es entsteht ein **Zwitterion**. Die
+Carboxylgruppe dient innerhalb des Moleküls als Protonendonator, die
+Aminogruppe als Protonenakzeptor. Durch die zwitterionische Struktur
+reagieren Aminosäuren als **Ampholyte**.
+
+<div class="clearfix">
+
+</div>
+
+### Der Isoelektrische Punkt
+
+Der Isoelektrische Punkt ist der Punkt, an welchem die Aminosäuren
+(maximal) als Zwitterion vorliegen. Er ist daher charakteristisch für
+jedes zwitterionische Molekül. Er lässt sich durch die folgende Formel
+berechnen: $pH = (pK~s1~ + pK~s2~) / 2$
+
+Kunststoffe
+-----------
+
+Als Kuststoffe werden künstlich synthtetisierte Stoffe bezeichnet,
+welche so nicht in der Natur vorkommen. Häfig sind die **Polymere**
+gemeint, welche Makromoleküle aus vielen **Monomeren** sind. Bei den
+Polymeren unterscheidet man drei verschiedene Gruppen, nämlich
+
+Farbstoffe
+----------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> <meta name="generator" content="pandoc">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Pascal Riesinger">
+<title>
+Chemie LK Ziegler - 13.1
+</title>
+<style type="text/css">code{white-space: pre;}</style>
+<link rel="stylesheet" href="style.css"> <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+<h1 class="title">
+Chemie LK Ziegler - 13.1
+</h1>
+<p class="author">
+Pascal Riesinger
+</p>
+</header>
+<nav id="TOC">
+<ul>
+<li>
+<a href="#aminosäuren-proteine">Aminosäuren & Proteine</a>
+</li>
+<li>
+<a href="#kunststoffe">Kunststoffe</a>
+</li>
+<li>
+<a href="#farbstoffe">Farbstoffe</a>
+</li>
+</ul>
+</nav>
+<h2 id="aminosäuren-proteine">
+Aminosäuren & Proteine
+</h2>
+<p>
+Aminosäuren sind die Bestandteile der Proteine. Sie sind für den
+menschlichen Körper extrem wichtig. Dabei gibt es 8 essentielle, d.h.
+vom Körper nicht produzierbare Aminosäuren.
+</p>
+<h3 id="struktur">
+Struktur
+</h3>
+Alle Aminosäuren habe eine Carboxylgruppe (COOH) und eine Aminogruppe
+(NH<sub>2</sub>), dabei ist die Aminogruppe immer an einem
+Kohlenstoffatom direkt am Kohlenstoffatom der Carboxylgruppe zu finden.
+<div class="left-img">
+
+<figure>
+<img src="assets/glycin.svg" alt="Glycin" />
+<figcaption>
+Glycin
+</figcaption>
+</figure>
+
+</div>
+
+<p>
+Das C-Atom, an welchem die Aminogruppe hängt, wird auch als
+ɑ-Kohlenstoffatom bezeichnet. In der Natur treten in größten Teilen
+L-ɑ-Aminosäuren auf, d.h. die Aminogruppe ist wie im Beispiel von Glycin
+(in der Fischer-Projektionsformel) nach links gedreht.
+</p>
+<div class="clearfix">
+
+</div>
+
+<h3 id="zwitterionische-struktur">
+Zwitterionische Struktur
+</h3>
+<p>
+Aminosäuren bilden ein Gitter ähnlich dem des Kochsalzes.
+</p>
+<div class="left-img">
+
+<figure>
+<img src="assets/glycin_zwitterion.svg" alt="Gylcin als Zwitterion" />
+<figcaption>
+Gylcin als Zwitterion
+</figcaption>
+</figure>
+
+</div>
+
+<p>
+Da sie jedoch nicht als Ionen vorliegen, müssen sich die Ladungen im
+Molekül verschieben und es entsteht ein <strong>Zwitterion</strong>. Die
+Carboxylgruppe dient innerhalb des Moleküls als Protonendonator, die
+Aminogruppe als Protonenakzeptor. Durch die zwitterionische Struktur
+reagieren Aminosäuren als <strong>Ampholyte</strong>.
+</p>
+<div class="clearfix">
+
+</div>
+
+<h2 id="kunststoffe">
+Kunststoffe
+</h2>
+<p>
+Als Kuststoffe werden künstlich synthtetisierte Stoffe bezeichnet,
+welche so nicht in der Natur vorkommen. Häfig sind die
+<strong>Polymere</strong> gemeint, welche Makromoleküle aus vielen
+<strong>Monomeren</strong> sind. Bei den Polymeren unterscheidet man
+drei verschiedene Gruppen, nämlich
+</p>
+<h2 id="farbstoffe">
+Farbstoffe
+</h2>
+</body>
+</html>
