@@ -1,34 +1,32 @@
 #!/bin/zsh
 
 function compile_specific() {
-    local year=$1
-    local class=$2
-    local output_dir="$SCHOOL_DIR/renders/$year"
+    local class=$1
+    local output_dir="$SCHOOL_DIR/renders/"
 
     if [ ! -d $output_dir ]; then
         mkdir -p output_dir
     fi
 
-    local files=($SCHOOL_DIR/$year/$class/*)
+    local files=($SCHOOL_DIR/$class/*(.))
 
-    printf "Compiling class %s from year %s\n" $class $year
+    if [ -n "$files" ]; then
+        printf "Compiling class %s \n" $class
+        pandoc -s -S --toc -c $SCHOOL_DIR/assets/style.css $files -f markdown -t html5 -o "$output_dir/$class.html"
+    else
+        printf "No files for %s \n" $class
+    fi
 
-    pandoc -s -S --toc -c $SCHOOL_DIR/assets/style.css $files -t html5 -o "$output_dir/$class.html"
 }
 
 function compile_all() {
-    local years=($(find $SCHOOL_DIR/* -maxdepth 0 -type d | grep -v "renders" | grep -v assets))
+    local classes=($(find $SCHOOL_DIR/* -maxdepth 0 -type d | grep -v "renders" | grep -v "assets"))
 
-    for year in $years;
+    for classpath in $classes;
     do
-        printf "Compiling year %s\n" $(basename $year)
-
-        local classes=($(find $year/* -maxdepth 0 -type d))
-        for class in $classes;
-            printf "   - %s" $(basename $class)
-            local files=($class/*)
-            pandoc -s -S --toc -c $SCHOOL_DIR/assets/style.css $files -t html5 -o "$output_dir/$class.html"
-
+        printf "Current folder: %s \n" $classpath
+        local class=$(basename $classpath)
+        compile_specific $class
     done
 }
 
