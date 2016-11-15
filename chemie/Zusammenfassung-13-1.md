@@ -160,4 +160,93 @@ Thermoplaste | Lange, nicht vernetzte Ketten                           | Beim Er
 Duroplaste   | Kurze, sehr stark vernetzte, 3-Dimensionale Ketten      | Sehr hart, spröde, brüchig
 Elastomere   | Relativ kurze, leicht verzweigte, 2-Dimensionale Ketten | Weich, gummielastisch
 
+Grundsätzlich sind Thermoplaste die (chemisch gesehen) beständigsten Kunststoffe. Während Elastomere
+weder Lösungsmitteln, Säuren noch Basen bestehen, können dies einige Duroplasten und viele Thermoplaste.
+
+### Taktizität
+Die Taktizität beschreibt die Anordnung der Seitengruppen. Dabei gibt es drei mögliche Varianten:
+
+- Isotaktisch: Alle Reste zeigen in eine Richtung
+- Syndiotaktisch: Die Reste zeigen abwechselnd nach vorne und hinten
+- Ataktisch: Die Reste sind zufällig angeordnet
+
+Je regelmäßiger der Aufbau eines Polymers ist (also je Höher seine Taktizität), desto leichter kann
+eine Kristallstruktur hergestellt werden. Dies beeinflusst dann die Härte, Sprödigkeit und 
+Formbeständigkeit. Die Taktizität lässt sich durch die Auswahl des zur Herstellung verwendeten 
+Katalysators  beeinflussen. Durch die Wahl von **Ziegler-Natta-Katalysatoren**, welche metallorganischen
+Ursprungs sind, entstehen *größtenteils* isotaktische Polymere. Durch die katalytische Polymerisation
+konnte das alte Verfahren Polyethylen herzustellen, welches sehr hohen Druck und hohe Temperaturen
+erforderte, durch ein neues System, bei welchem nur Normaldruck und Raumtemperatur benötigt werden,
+abgelöst werden. Außerdem entseht hierbei ein Polyethylen mit **höherer Kristallinität** und
+somit auch mit höheren Härte und Steifigkeit. Das Verfahren, welches durch Karl Ziegler entdeckt wurde,
+wurde später von Giulio Natta verbessert.
+
+### Herstellungsverfahren
+Man unterscheidet zwischen drei Reaktionsmechanismen, um Polymere herzustellen.
+
+#### Polymerisation
+Um die Polymerisation durchzuführen wird ein Monomer mit mindestens einer **C=C-Doppelbindung**.
+benötigt.
+Es gibt eine Radikalische, Anionische und Kationische Polymerisation, bei welchen sich nur die
+Edukte unterscheiden.
+
+##### Radikalische Poylmerisation
+Ein Monomer-Radikal wird gebildet, welches dann ein anderes Monomer angreift und dessen Doppelbindung
+spaltet:
+![Erzeugung von Monomerradikalen](assets/polymerisation_rad1.gif)
+![Angriff des Radikals](assets/polymerisation_rad2.gif)
+In diesem zweiten Schritt entsteht wieder ein Radikal, daher kann dieser unendlich lang wiederholt werden.
+Die Kette Bricht ab, wenn sich zwei Radikale verbinden.
+
+#### Kationische Polymerisation
+Die Kationsche Polymerisation läuft ähnlich ab, wird jedoch durch eine starke Säure initiiert:
+![Kationische Polymerisation](assets/polymerisation_kat.gif)
+
+#### Anionische Polymerisation
+Diese ist der kationischen Polymerisation gleich zu setzen, jedoch wird hier eine starke Base als
+Initiator verwendet:
+![Anionische Polymerisation](assets/polymerisation_ani.gif)
+
+
+### Polykondensation
+Durch die Polykondensation werden verschiedene Kunststoffe, wie z.B. Phenoplast, Polyester und Polyamide
+hergestellt.
+
+#### Phenoplast
+Reaktion von Phenol mit einem Aldehyd. Dieser Schritt ist beliebig wiederholbar.
+![Herstellung eines Phenoplast](assets/polykondensation1.png)
+
+#### Polyester
+Reaktion von Carbonsäuren mit Diolen. Wenn man statt eines Diols z.B. Glycerin als Ausgangsstoff
+benutzt, entsteht ein Duroplast.
+![Herstellung eines Polyesters](assets/polykondensation2.png)
+
+#### Polyamide
+Damide reagieren mit Dicarbonsäuren durch Polykondensation zu Polyamiden (z.B. Nylon).
+![Herstellung eines Polyamids](assets/polykondensation3.png)
+
+
+### Kuststoffe im Alltag
+Im Alltag begegnen uns überall Kunststoffe, von Autoteilen, über Verpackungen, Flaschen, Werkzeuge bis
+hin zu elektronischen Geräten. Einige Beispiele für die Nutzung von Kunststoffen:
+
+- CD's & BluRays
+- Fahrzeugsitze
+- Flaschen
+- Getränkekartons
+
+### Recycling von Kunststoffen
+Kunstoffabfälle werden heute immernoch zu großen Teilen verbrannt, was einer energetischen Verwertung
+gleichkommt. Nur knapp über 40% werden wekstofflich verwertet, d.h. weiter verarbeitet. Dafür sind
+allerdings nur reine, nicht verschmutzte Kunststoffe geeignet. Man zerkleinert diese oder schmilzt sie
+ein, sodass neue Produkte aus ihnen hergestellt werden können. Ein kleiner Teil der Kunststoffe wird 
+auch chemisch verarbeitet, d.h. man löst diese. Dabei entstehen die Monomere, Gase und Kohlenwasserstoffe.
+Vorteil hier ist, dass auch stark verschmutzte Kunststoffe verwertet werden können.
+
+### Biologisch abbaubare Kunststoffe
+Nur ein geringer Anteil der heute verwendeten Kunststoffe ist biologisch abbaubar. Diese werden jedoch
+immer wichtiger, z.B. in der Langwirtschaft und in der Medizin. Es gibt zwei mögliche 
+Herstellungsverfahren, namentlich die Polymekondensation und die Polymerisation. Alle abbaubaren
+Kunststoffe haben Ester oder Amidbindungen, welche dann von Mikroorganismen gespalten werden können.
+
 ## Farbstoffe
