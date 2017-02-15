@@ -1,0 +1,15 @@
+- Offener Anfang, offener Schluss
+- Nur ein Handlungsstrang
+- wenige Figuren ➔ nicht sehr ausführlich beschrieben, typisiert
+- Wendepunkt
+- Anfang und Schluss bilden häufig eine Klammer
+- Themen:
+    - Schicksalsschläge
+    - Alltag
+    - Kommunikation
+    - Gefühle
+    - Nachkriegszeit
+- Umgangssprachlich, einfache Satzstrukturen
+- Viele Informationen in kurzer Zeit
+- Sprachliche Bilder, Symbole
+
